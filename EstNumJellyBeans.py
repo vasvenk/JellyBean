@@ -101,9 +101,7 @@ class NumJellyEstimator:
                   +"computing estimate.\n"
 
         # NE24: What other checks might be useful? What is a better way to do this?
-        # We could generalize the logic of test checking by creating a helper /
-        # Class method, which takes in self and a condition and returns invalid input /
-        # If input is invalid. 
+        # We could exception statements rather than assertion statements 
         # We could set default values other than 0 so that we never get 0.0 in /
         # computing jelly beans.
 
